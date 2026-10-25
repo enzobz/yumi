@@ -6,7 +6,7 @@ function BoasVindas({ onComecar }) {
         padding: 40,
       }}
     >
-      <h1 style={{ fontSize: 48, color: '#1c1812', margin: 0 }}>藤の道</h1>
+      <h1 style={{ fontSize: 48, lineHeight: 1.2, color: '#1c1812', margin: 0 }}>藤の道</h1>
       <p style={{ color: '#3b3328', fontSize: 18, fontStyle: 'italic' }}>
         Fuji no Michi
       </p>

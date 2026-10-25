@@ -2,6 +2,7 @@ const licoes = [
   {
     id: 1,
     titulo: 'これ・それ・あれ (Objetos e coisas)',
+    frase: 'これは何ですか',
     vocabulario: [
       { japones: 'これ', leitura: 'kore', portugues: 'isto' },
       { japones: 'それ', leitura: 'sore', portugues: 'isso' },
@@ -77,6 +78,7 @@ const licoes = [
   {
     id: 2,
     titulo: 'ここ・そこ・あそこ (Lugares)',
+    frase: 'ここは教室です',
     vocabulario: [
       { japones: 'ここ', leitura: 'koko', portugues: 'aqui' },
       { japones: 'そこ', leitura: 'soko', portugues: 'aí' },
@@ -161,6 +163,7 @@ const licoes = [
   {
     id: 3,
     titulo: 'だれ・なんさい・〜の (Pessoas e posse)',
+    frase: 'これは私のです',
     vocabulario: [
       { japones: 'だれ', leitura: 'dare', portugues: 'quem' },
       { japones: 'どなた', leitura: 'donata', portugues: 'quem (formal)' },

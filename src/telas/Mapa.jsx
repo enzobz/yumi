@@ -1,19 +1,16 @@
-function Mapa({ onVoltar, onEntrarLicao }) {
-  const licoes = [
-    { id: 1, titulo: 'これは何ですか' },
-    { id: 2, titulo: 'これは私のです' },
-    { id: 3, titulo: 'ここは教室です' },
-  ];
+import licoes from '../licoes';
 
+function Mapa({ onVoltar, onEntrarLicao }) {
   return (
     <div>
       {licoes.map((licao) => (
         <div key={licao.id}>
           <p>Lição {licao.id}</p>
-          <p>{licao.titulo}</p>
+          <p>{licao.frase}</p>
           <button onClick={() => onEntrarLicao(licao.id)}>COMEÇAR</button>
         </div>
       ))}
+      <button onClick={onVoltar}>-- Voltar</button>
     </div>
   );
 }

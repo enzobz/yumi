@@ -11,6 +11,7 @@ function Exercicio({ questao, onVoltar, onProxima }) {
         {questao.opcoes.map((opcao) => (
           <button
             key={opcao}
+            disabled={jaRespondeu}
             onClick={() => {
               setRespostaSelecionada(opcao);
               setJaRespondeu(true);
